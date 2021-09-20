@@ -1,0 +1,34 @@
+.container {
+    margin-left: 33%;
+    height: 100vh;
+}
+
+img {
+    height: 25%;
+}
+
+h1 {
+    color: blue;
+}
+
+input {
+    width: 40%;
+    margin-bottom: 40px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+button {
+    margin-left: 55px;
+    border-radius: 50px;
+    width: 30%;
+    height: 50px;
+    border: 2px solid rgb(252, 52, 85);
+    color: rgba(252, 52, 85);
+    background-color: transparent;
+    margin-bottom: 40px;
+}
+
+a {
+    margin-bottom: 40px;
+}
