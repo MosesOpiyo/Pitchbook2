@@ -1,8 +1,8 @@
 from flask import render_template
-from . import app
+from . import main
 
 # Views
-@app.route('/')
+@main.route('/')
 def index():
 
     '''
@@ -10,16 +10,16 @@ def index():
     '''
     return render_template('index.html')
 
-@app.route('/sign-up')
+@main.route('/sign-up')
 def SignUp():
     return render_template('sign-up.html')
 
-@app.route('/pitchbook')
+@main.route('/pitchbook')
 def home():
     return render_template('home.html')
 
 
 
-@app.route('/account')
+@main.route('/account')
 def account():
     return render_template('account.html')
