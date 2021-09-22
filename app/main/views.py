@@ -1,4 +1,6 @@
 from flask import render_template
+from . import auth
+
 from . import main
 
 # Views
@@ -23,3 +25,8 @@ def home():
 @main.route('/account')
 def account():
     return render_template('account.html')
+
+
+@auth.route('/login')
+def login():
+    return render_template('templates/login.html')
