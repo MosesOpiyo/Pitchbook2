@@ -1,5 +1,5 @@
 from flask import render_template
-from . import auth
+from app.auth import auth
 
 from . import main
 
@@ -11,6 +11,9 @@ def index():
     View root page function that returns the index page and its data
     '''
     return render_template('index.html')
+@auth.route('/')
+def login():
+    return render_template('templates/index.html')
 
 @main.route('/sign-up')
 def SignUp():
@@ -27,6 +30,3 @@ def account():
     return render_template('account.html')
 
 
-@auth.route('/login')
-def login():
-    return render_template('templates/login.html')
