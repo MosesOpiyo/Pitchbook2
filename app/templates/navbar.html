@@ -1,4 +1,4 @@
-<div class="navbar navbar-inverse" role="navigation">
+<div class="navbar navbar-inverse" role="navigation" style="background-color: rgb(218, 65, 91);border: transparent;height: 10vh;">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -8,17 +8,17 @@
                 <span class="icon-bar"></span>
             </button>
             <ul>
-                <a href="/pitches/new/" class="navbar-brand">Click Here To Post A Pitch</a>
+                <a href="/pitches/new/" class="navbar-brand" style="padding-top: 30px;color: white;">Click Here To Post A Pitch</a>
             </ul>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/" class="navbar-brand">Home</a></li>
+                <li><a href="/" class="navbar-brand" style="padding-top: 30px;color: white;">Home</a></li>
                 {% if current_user.is_authenticated %}
                 <li><a href="{{url_for('main.profile', uname = current_user.username)}}">{{current_user.username}}'s Profile</a></li>
-                <li><a href="{{url_for('auth.logout')}}">Sign Out</a></li>
+                <li><a href="{{url_for('auth.logout')}}" style="padding-top: 30px;color: white;">Sign Out</a></li>
                 {% else %}
-                <li><a href="{{url_for('auth.login')}}">Sign In</a></li>
+                <li><a href="{{url_for('auth.login')}}" style="padding-top: 30px;color: white;">Sign In</a></li>
                 {% endif%}
             </ul>
         </div>
