@@ -1,0 +1,5 @@
+{% extends 'base.html'%} {% block navbar %} {% include 'navbar.html' %} {% endblock %} {% block content %}
+<div class="container">
+    {% for pitch in pitches %}{{ pitch.title }} {% endfor %}
+</div>
+{% endblock %}
