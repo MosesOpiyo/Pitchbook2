@@ -10,47 +10,48 @@ Click the link below to have a look at the site.
 
 
 
-Technologies Used
-Flask
-HTML
-CSS
-Bootstrap
-Python
-Javascipt
+## Technologies Used
+1. Flask
+2. HTML
+3. CSS
+4. Bootstrap
+5. Python
+6. Javascipt
+
 ## Dependencies
 For full functionality of the application install the following:
 
-alembic==1.7.3
-blinker==1.4
-click==8.0.1
-dnspython==2.1.0
-dominate==2.6.0
-email-validator==1.1.3
-Flask==2.0.1
-Flask-Bootstrap==3.3.7.1
-Flask-Login==0.5.0
-Flask-Mail==0.9.1
-Flask-Migrate==2.1.1
-Flask-Script==2.0.6
-Flask-SimpleMDE==0.3.0
-Flask-SQLAlchemy==2.5.1
-Flask-Uploads==0.2.1
-Flask-WTF==0.15.1
-greenlet==1.1.1
-idna==3.2
-importlib-resources==5.2.2
-itsdangerous==2.0.1
-Jinja2==3.0.1
-Mako==1.1.5
-markdown2==2.4.1
-MarkupSafe==2.0.1
-psycopg2==2.9.1
-python-dotenv==0.19.0
-SQLAlchemy==1.4.23
-visitor==0.1.3
-Werkzeug==2.0.1
-WTForms==2.3.3
-zipp==3.5.0
+1. alembic==1.7.3
+2. blinker==1.4
+3. click==8.0.1
+4. dnspython==2.1.0
+5. dominate==2.6.0
+6. email-validator==1.1.3
+7. Flask==2.0.1
+8. Flask-Bootstrap==3.3.7.1
+8. Flask-Login==0.5.0
+9. Flask-Mail==0.9.1
+10. Flask-Migrate==2.1.1
+11. Flask-Script==2.0.6
+12. Flask-SimpleMDE==0.3.0
+13. Flask-SQLAlchemy==2.5.1
+14. Flask-Uploads==0.2.1
+15. Flask-WTF==0.15.1
+16. greenlet==1.1.1
+17. idna==3.2
+18. importlib-resources==5.2.2
+19. itsdangerous==2.0.1
+20. Jinja2==3.0.1
+21. Mako==1.1.5
+22. markdown2==2.4.1
+23. MarkupSafe==2.0.1
+24. psycopg2==2.9.1
+25. python-dotenv==0.19.0
+26. SQLAlchemy==1.4.23
+27. visitor==0.1.3
+28. Werkzeug==2.0.1
+29. WTForms==2.3.3
+30. zipp==3.5.0
 
 
 ## Future Improvements
