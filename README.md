@@ -1,4 +1,4 @@
-<img src="">
+<img src="https://github.com/MosesOpiyo/PitchBook/blob/master/app/static/photos/Screenshot%20from%202021-09-27%2010-21-40.png?raw=true">
 ## PitchBook
 This is a web application that displays pitches from multiple users to a user.
 
