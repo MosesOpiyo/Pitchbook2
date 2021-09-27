@@ -5,13 +5,8 @@
             {{ wtf.quick_form(form) }}
             <ul class="list-group">
                 {% for pitch in pitches %}
-                <a href="">
-                    <li class="list-item">
-                        {{ pitch.id }}
-                    </li>
-                    <h4>{{ pitch.description }}</h4>
-                    <h6>Posted by {{ pitch.pitch.username }}.</h6>
-                </a>
+                <h4>{{ pitch.description }}</h4>
+                <h6>Posted by {{ pitch.pitch.username }}.</h6>
                 {% endfor %}
             </ul>
         </div>

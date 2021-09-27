@@ -11,7 +11,6 @@ from .. import db,photos
 # Views
 @main.route('/')
 def index():
-    title = 'PitchBook'
     return render_template('index.html')
 
 @main.route('/user/<uname>')
